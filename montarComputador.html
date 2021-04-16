@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&S Soluções Em T.I.</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header>
+        <div class="container">    
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="imagens/logo_empresa2.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="ItensMenu"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+                <a href="carrinho.html"><img class="carrinhoCompra" src="imagens/carrinho.png" alt=""></a>
+                <img class="menu" src="imagens/menu.png" alt="" onClick="menuToogle()">
+            </div>
+        </div>    
+    </header>
+    <main>
+        <div class="smallContainer">
+            <div class="contato">
+                <h2 class="tituloPC">Monte seu PC gamer!</h2>
+            </div>
+
+            <div class="rowPC">
+                <form action="#" class="form-contato" method="post" tabindex="1">
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/1placa-de-video.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Placa de Vídeo</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" required />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/2processador.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Processador</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" required />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/3water-cooler.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Water Cooler</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/4placa-mae.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Placa Mãe</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" required />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/5memoria-ram.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Memória Ram</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" required />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/6hd.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Hard Disk (HDD)</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/7ssd.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>SSD</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/8fonte.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Fonte</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" required />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/9gabinete.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Gabinete</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/10monitor.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Monitor</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/11teclado.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Teclado</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/12mouse.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Mouse</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/13headset.jpg" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>Headset</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" />
+                </div>
+                <div class="col-5">
+                    <div class="col-7">
+                        <img src="imagens/14sistema-operacional.png" alt="">          
+                    </div>
+                    <div class="col-6">
+                        <h6>SO (Sistema Operacional)</h6>            
+                    </div>
+                    <input type="text" class="form-pc" name="nome" placeholder="Nome" required />
+                </div>
+                 
+            </div>
+            <button type="submit" class="form-pc-button">Solicitar orçamento</button>
+        </form>
+            <!--
+            <div class="containerForm">      
+                <form action="#" class="form-contato" method="post" tabindex="1">   
+                   <input type="text" class="form-contato-input" name="nome" placeholder="Nome" required />  
+                   <input type="email" class="form-contato-input" name="email" placeholder="Email" required />  
+                   <input type="tel" class="form-contato-input" name="tel" placeholder="Telefone" />  
+                   <textarea class="form-contato-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+                   <button type="submit" class="form-contato-button">Enviar</button>  
+                </form>  
+            </div> 
+            -->
+        </div>
+    </main>
+    <footer>
+            <div class="footer-sobre">
+        <img src="imagens/logo_empresa2.png" alt="">   
+            </div>
+    </footer>
+</body>
+</html>

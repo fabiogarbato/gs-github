@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&S Soluções Em T.I.</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header>
+        <div class="container">    
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="imagens/logo_empresa2.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul id="ItensMenu"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </nav>
+                <a href="carrinho.html"><img class="carrinhoCompra" src="imagens/carrinho.png" alt=""></a>
+                <img class="menu" src="imagens/menu.png" alt="" onClick="menuToogle()">
+            </div>
+        </div>    
+    </header>
+    <main>
+        <div class="carrinho">
+            <div class="small-container-carrinho">
+                <table>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="infocarrinho">
+                                <img src="imagens/Produto1.png" alt="">
+                                <div>
+                                    <p>Fone de ouvido Xiaomi Mi Earbuds</p><br>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input min="1" type="number" value="1"></td>
+                        <td>R$100,00</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="infocarrinho">
+                                <img src="imagens/produto9.png" alt="">
+                                <div>
+                                    <p>Webcam Full HD Logitech C922 Pro Stream</p><br>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input min="1" type="number" value="1"></td>
+                        <td>R$550,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="footerCarrinho">
+        <img src="imagens/logo_empresa2.png" alt="">   
+    </footer>
+</body>
+</html>
